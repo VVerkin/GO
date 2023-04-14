@@ -1,0 +1,39 @@
+.footer {
+  padding: 50px 0;
+}
+
+.footer__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 54px;
+}
+
+.footer__address {
+  margin-bottom: 39px;
+}
+
+.footer__img {
+  margin-right: 30px;
+}
+
+.footer__link {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: normal;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  list-style-type: none;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 26px;
+}

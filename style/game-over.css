@@ -1,0 +1,30 @@
+
+.game-over__wrapper {
+  position: relative;
+  min-height: 823px;
+}
+
+.game-over__wrapper:before {
+  content: '';
+  width:675px;
+  height: 762px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: url("/img/header/header_bg.png") no-repeat;
+  
+}
+
+.game-over__header {
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 100%;
+  letter-spacing: -0.1em;
+  text-transform: uppercase;
+}
+
+.game-over__subheader {
+  font-size: 28px;
+  line-height: 50px;
+  margin-left: 100px;
+}

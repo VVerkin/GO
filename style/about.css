@@ -1,0 +1,66 @@
+.about__container {
+  display: flow-root;
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+
+.about__text {
+  margin-bottom: 78px;
+}
+
+.about__item {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.about__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.about__blockquote {
+  overflow: hidden;
+}
+
+.about__cite {
+  text-transform: uppercase;
+  font-size: 44px;
+  line-height: 50px;
+  margin-bottom: 40px;
+}
+
+.about__autor {
+  width: 389px;
+  height: 84px;
+  margin: auto auto;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  float: right;
+}
+
+.about__img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  margin-right: 30px;
+}
+
+.about__text-block {
+  max-width: 240px;
+  display: inline-block;
+}
+
+.about__collage {
+  float: left;
+  margin-right: 80px;
+}
