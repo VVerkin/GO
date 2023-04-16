@@ -43,9 +43,9 @@
 }
 
 .questions__item:nth-child(even):after{
-  background-image: url("/img/icons/open.svg");
+  background-image: url("../img/icons/open.svg");
 }
 
 .questions__item:nth-child(odd):after{
-  background-image: url("/img/icons/open-purple.svg");
+  background-image: url("../img/icons/open-purple.svg");
 }
