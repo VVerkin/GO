@@ -1,15 +1,39 @@
-.games {
-
-}
-
-.games__item {
-
+.games__title {
+  padding: 0 30px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  
+  text-align: center;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  margin-bottom: 41px;
 }
 
 .games__list {
-
+  display: flex;
+  flex-flow: wrap;
 }
 
-.games__title {
+.games__item:not(:nth-child(3n)) {
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+figure {
+  position: relative;
+}
+
+.games__figcaption {
+  position: absolute;
+  left: 40px;
+  top: 166px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+
+  color: #FFFFFF;
 
 }
