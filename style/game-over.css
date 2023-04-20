@@ -87,8 +87,7 @@
 }
 
 .game-over__down {
-position: absolute;
-left: 565px;
-top: 635px;
-
+  position: absolute;
+  right: 544px;
+  bottom: 90px;
 }

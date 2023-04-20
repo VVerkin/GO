@@ -13,11 +13,11 @@
 
 .games__list {
   display: flex;
-  flex-flow: wrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.games__item:not(:nth-child(3n)) {
-  margin-right: 20px;
+.games__item {
   margin-bottom: 40px;
 }
 
@@ -35,5 +35,5 @@ figure {
   line-height: 28px;
 
   color: #FFFFFF;
-
+  white-space: pre-line;
 }

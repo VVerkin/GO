@@ -1,4 +1,14 @@
-.reserved__title {
+.reserv__wrapper {
+  display:flow-root;
+  max-width: 1440px;
+  min-height: 1114px;
+  margin: 0 auto;
+  padding: 80px 130px;
+
+  background: #440F51;
+}
+
+.reserv__title {
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
@@ -7,3 +17,180 @@
   color: #FFFFFF;
   margin-bottom: 50px;
 }
+
+.reserv__form {
+  margin-bottom: 40px;
+}
+
+.reserv__legend {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #FFFFFF;
+  margin-bottom: 40px;
+  }
+
+.reserv__fieldset-hall {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.reserv__hall {
+  width: 250px;
+  height: 55px;
+  padding: 7px 15px 8px;
+  cursor: pointer;
+  background: #FFFFFF;
+  border-radius: 8px;
+  user-select: none;
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  }ц
+
+  .reserv__hall-input {
+    display: none;
+  }
+
+.reserv__fieldset-game {
+  display: flex;
+  justify-content: space-around;
+  }
+
+.reserv__legend-game {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+
+  margin-bottom: 24px;
+  }
+
+.reserv__fieldset-check {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 67px;
+  }
+
+.reserv__game-check {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  
+  color: #FFFFFF;
+  }
+
+.reserv__game-check:not(:last-child) {
+  margin-bottom: 22px;
+  }
+
+.reserv__game-checkbox {
+  margin-right: 12px;
+  }
+
+.reserv__fieldset {
+  max-width: 980px;
+  height: 228px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  gap: 50px;
+  }
+
+.reserv__setting {
+  display: flex;
+  flex-direction: column;
+  }
+
+.reserv__date-time {
+  display: flex;
+  }
+
+.reserv__contacts {
+  display: flex;
+  flex-direction: column;
+  }
+
+.reserv__date {
+  width: 134px;
+  height: 52px;
+  margin-right: 32px;
+  margin-bottom: 36px;
+  }
+
+.reserv__time {
+  width: 134px;
+  height: 52px;
+  }
+
+.reserv__persons {
+  width: 300px;
+  height: 52px;
+  }
+
+.reserv__name {
+  display: flex;
+  flex-direction: column;
+  }
+
+.reserv__firstname {
+  width: 280px;
+  height: 52px;
+  margin-bottom: 14px;
+}
+
+.reserv__label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.reserv__surname {
+  width: 280px;
+  height: 52px; 
+}
+
+.reserv__contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.reserv__phone {
+  width: 300px;
+  height: 52px;
+  margin-bottom: 14px;
+}
+
+.reserv__email {
+  width: 300px;
+  height: 52px;
+}
+
+.reserv__btn {
+
+  width: 300px;
+  height: 60px;
+
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-right: 100px;
+  float:right;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+
+  color: #6C0287;
+}
+

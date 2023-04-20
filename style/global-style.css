@@ -69,3 +69,8 @@ strong {
   color: #6C0287;
 }
 
+fieldset {
+  margin: 0;
+  padding: 0;
+  border:0 none;
+}

@@ -61,7 +61,8 @@
             <li class="games__item">
               <figure>
                 <img src="img/game/audio.jpg" alt="Аудио-система">
-                <figcaption class="games__figcaption">Аудио-система 5.1 с отличным звуком</figcaption>
+                <figcaption class="games__figcaption">Аудио-система 5.1 
+                  с отличным звуком</figcaption>
               </figure>
             </li>
             <li class="games__item">
@@ -112,54 +113,69 @@
         </div>
       </section>
 
-      <section id="reserv" class="reserved">
-        <div class="container">
-          <h2 class="reserved__title">Забронировать зал просто</h2>
-          <form id="my-form" action="https://jsonplaceholder.typicode.com/posts"
+      <section id="reserv" class="reserv">
+        <div class="reserv__wrapper">
+          <h2 class="reserv__title">Забронировать зал просто</h2>
+          <form class="reserv__form" id="reserv-form" action="https://jsonplaceholder.typicode.com/posts"
                 method="post">
-            <fieldset>
-              <legend>Выбери зал</legend>
-              <label><input type="radio" name="hall" value="80's-vibes">80's vibes</label>
-              <label><input type="radio" name="hall" value="star-wars">Star wars</label>
-              <label><input type="radio" name="hall" value="wild-west">Wild west</label>
-              <label><input type="radio" name="hall" value="neon-style">Neon style</label>
+            <fieldset class="reserv__fieldset-hall">
+              <legend class="reserv__legend">Выбери зал</legend>
+              <label class ="reserv__hall"><input class ="reserv__hall-input" type="radio" name="hall" value="80's-vibes">80's vibes</label>
+              <label class ="reserv__hall"><input class ="reserv__hall-input" type="radio" name="hall" value="star-wars">Star wars</label>
+              <label class ="reserv__hall"><input class ="reserv__hall-input" type="radio" name="hall" value="wild-west">Wild west</label>
+              <label class ="reserv__hall"><input class ="reserv__hall-input" type="radio" name="hall" value="neon-style">Neon style</label>
             </fieldset>
-            <fieldset>
-              <legend>Собери набор развлечений</legend>
-              <fieldset>
-                <legend>Приставка</legend>
-                <label><input type="radio" name="console" value="PlayStation">PlayStation</label>
-                <label><input type="radio" name="console" value="Sega-Mega-Drive">Sega Mega Drive"</label>
-                <label><input type="radio" name="console" value="X-box-One-S">X-box-One-S</label>
-                <label><input type="radio" name="console" value="Dendy">Dendy</label>        
+            <fieldset class="reserv__fieldset-game">
+              <legend class="reserv__legend">Собери набор развлечений</legend>
+              <fieldset class="reserv__fieldset-check">
+                <legend class="reserv__legend-game">Приставка</legend>
+                <label class="reserv__game-check"><input class="reserv__game-checkbox" type="radio" name="console" value="PlayStation">PlayStation</label>
+                <label class="reserv__game-check"><input class="reserv__game-checkbox" type="radio" name="console" value="Sega-Mega-Drive">Sega Mega Drive</label>
+                <label class="reserv__game-check"><input class="reserv__game-checkbox" type="radio" name="console" value="X-box-One-S">X-box-One-S</label>
+                <label class="reserv__game-check"><input class="reserv__game-checkbox" type="radio" name="console" value="Dendy">Dendy</label>        
               </fieldset>
-              <fieldset>
-                <legend>Настольные игры</legend>
-                <label><input type="checkbox" name="games" value="Jenga">Jenga</label>
-                <label><input type="checkbox" name="games" value="Monoppoly">Monoppoly"</label>
-                <label><input type="checkbox" name="games" value="Manchkin">Манчкин</label>
-                <label><input type="checkbox" name="games" value="Alias">Alias</label>        
+              <fieldset class="reserv__fieldset-check">
+                <legend class="reserv__legend-game">Настольные игры</legend>
+                <label class="reserv__game-check"><input class="reserv__game-checkbox" type="checkbox" name="games" value="Jenga">Jenga</label>
+                <label class="reserv__game-check"><input class="reserv__game-checkbox" type="checkbox" name="games" value="Monoppoly">Monoppoly</label>
+                <label class="reserv__game-check"><input class="reserv__game-checkbox" type="checkbox" name="games" value="Manchkin">Манчкин</label>
+                <label class="reserv__game-check"><input class="reserv__game-checkbox" type="checkbox" name="games" value="Alias">Alias</label>        
               </fieldset>
-              <fieldset>
-                <legend>Дополнительно</legend>
-                <label><input type="checkbox" name="additionally" value="Karaoke">Караоке</label>
-                <label><input type="checkbox" name="additionally" value="VR">VR</label>
-              </fieldset>
-              <fieldset>
-                <legend>Выбери дату и время</legend>
-                <label>Дата*<input type="date" name="date" value="date" required></label>
-                <label>Время*<input type="time" name="time" value="date" required></label>
-                <label>Количество человек*<input type="number" name="persons" value="persons" required></label>
-                <label>Имя*<input type="text" name="firstname" required></label>
-                <label>Фамилия*<input type="text" name="surname" required></label>
-                <label>Номер телефона*<input type="phone" required></label>
-                <label>E-mail*<input type="email" name="email" required></label>
-                <label><input type="checkbox" name="age" value="age" required>Я старше 18 лет</label>
+              <fieldset class="reserv__fieldset-check">
+                <legend class="reserv__legend-game">Дополнительно</legend>
+                <label class="reserv__game-check"><input class="reserv__game-checkbox" type="checkbox" name="additionally" value="Karaoke">Караоке</label>
+                <label class="reserv__game-check"><input class="reserv__game-checkbox" type="checkbox" name="additionally" value="VR">VR</label>
               </fieldset>
             </fieldset>
+
+              <fieldset class="reserv__fieldset">
+                <legend class="reserv__legend">Выбери дату и время</legend>
+
+                <div class="reserv__setting">
+                  <label class="reserv__date-time">
+                    <input class="reserv__date" type="date" name="date" value="date" required>
+                    <input class="reserv__time" type="time" name="time" value="time" required>
+                  </label>
+                  <label>
+                    <input class="reserv__persons" type="number" name="persons" value="persons" placeholder="Количество человек" required>
+                  </label>
+                </div>
+
+                <div class="reserv__name">
+                  <label class="reserv__label">Имя<input class="reserv__firstname" type="text" name="firstname" required></label>
+                  <label class="reserv__label">Фамилия<input class="reserv__surname" type="text" name="surname" required></label>
+                </div>
+
+                <div class="reserv__contacts">
+                  <label class="reserv__label">Tелефон<input class="reserv__phone" type="phone" required></label>
+                  <label class="reserv__label">E-mail*<input class="reserv__email" type="email" name="email" required></label>
+                </div>
+                <!-- <label><input type="checkbox" name="age" value="age" required>Я старше 18 лет</label> -->
+              </fieldset>
+              
           </form>
-          <button name="reserved" required form="my-form">Забронировать</button>
-          <label><input type="checkbox" name="personal-date" value="ok" form="my-form" required>Согласен на обработку персональных данных</label>
+          <button class="reserv__btn" name="reserv" required form="reserv-form" type="submit">Забронировать</button>
+          <!-- <label><input type="checkbox" name="personal-date" value="ok" form="reserv__form" required>Согласен на обработку персональных данных</label> -->
         </div>
       </section>
 
