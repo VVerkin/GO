@@ -54,7 +54,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-  }ц
+  }
 
   .reserv__hall-input {
     display: none;
@@ -178,7 +178,6 @@
 }
 
 .reserv__btn {
-
   width: 300px;
   height: 60px;
 
