@@ -114,7 +114,7 @@
       </section>
 
       <section id="reserv" class="reserv">
-        <div class="reserv__wrapper">
+        <div class="container">
           <h2 class="reserv__title">Забронировать зал просто</h2>
           <form class="reserv__form" id="reserv-form" action="https://jsonplaceholder.typicode.com/posts"
                 method="post">
@@ -125,6 +125,7 @@
               <label class ="reserv__hall"><input class ="reserv__hall-input" type="radio" name="hall" value="wild-west">Wild west</label>
               <label class ="reserv__hall"><input class ="reserv__hall-input" type="radio" name="hall" value="neon-style">Neon style</label>
             </fieldset>
+            <!-- <div class="reserv__wrapper"> -->
             <fieldset class="reserv__fieldset-game">
               <legend class="reserv__legend">Собери набор развлечений</legend>
               <fieldset class="reserv__fieldset-check">
@@ -172,11 +173,10 @@
                 <!-- <label><input type="checkbox" name="age" value="age" required>Я старше 18 лет</label> -->
               </fieldset>
               <div class="reserv__button">
-              <button class="reserv__btn" name="reserv-btn" required form="reserv-form" type="submit">Забронировать</button>
-            </div>
+                <button class="reserv__btn" name="reserv-btn" required form="reserv-form" type="submit">Забронировать</button>
+              </div>
+          <!-- </div> -->
             </form>
-          
-          
           <!-- <label><input type="checkbox" name="personal-date" value="ok" form="reserv__form" required>Согласен на обработку персональных данных</label> -->
         </div>
       </section>
