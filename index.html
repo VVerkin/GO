@@ -42,7 +42,7 @@
                 <p class="game-over__text-small">Новейшая аппаратура</p>
               </div>
             </div>
-            <button type="submit" class="game-over__button-reserv" id="reserv" form="reserv-form" name="reserv">Забронировать</button>
+            <button type="submit" class="game-over__button-reserv" id="game-over-reserv-btn" form="reserv-form" name="reserv">Забронировать</button>
             <img class="game-over__down" src="img/icons/down.svg" alt="Кнопка прокрутки вниз">
         </div>
       </div>
@@ -148,18 +148,17 @@
               </fieldset>
             </fieldset>
 
-              <fieldset class="reserv__fieldset">
+              <fieldset class="reserv__fieldset-date">
                 <legend class="reserv__legend">Выбери дату и время</legend>
 
                 <div class="reserv__setting">
+
                   <div class="reserv__date-time">
                     <input class="reserv__date" type="date" name="date" value="date" required>
                     <input class="reserv__time" type="time" name="time" value="time" required>
                   </div>
-                  <div>
                     <input class="reserv__persons" type="number" name="persons" value="persons" placeholder="Количество человек" required>
                   </div>
-                </div>
 
                 <div class="reserv__name">
                   <label class="reserv__label">Имя<input class="reserv__firstname" type="text" name="firstname" required></label>
@@ -172,10 +171,12 @@
                 </div>
                 <!-- <label><input type="checkbox" name="age" value="age" required>Я старше 18 лет</label> -->
               </fieldset>
-              
-          </form>
-
-          <button class="reserv__btn" name="reserv-btn" required form="reserv-form" type="submit">Забронировать</button>
+              <div class="reserv__button">
+              <button class="reserv__btn" name="reserv-btn" required form="reserv-form" type="submit">Забронировать</button>
+            </div>
+            </form>
+          
+          
           <!-- <label><input type="checkbox" name="personal-date" value="ok" form="reserv__form" required>Согласен на обработку персональных данных</label> -->
         </div>
       </section>

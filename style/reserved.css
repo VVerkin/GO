@@ -22,6 +22,14 @@
   margin-bottom: 40px;
 }
 
+.reserv__fieldset-hall {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
 .reserv__legend {
   font-weight: 700;
   font-size: 24px;
@@ -31,14 +39,6 @@
   color: #FFFFFF;
   margin-bottom: 40px;
   }
-
-.reserv__fieldset-hall {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 60px;
-  margin-bottom: 60px;
-}
 
 .reserv__hall {
   width: 250px;
@@ -58,13 +58,17 @@
   }
 
   .reserv__hall-input {
-    display: none;
+  display: none;
   }
 
 .reserv__fieldset-game {
+  max-width: 980px;
   display: flex;
-  justify-content: space-around;
-  }
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 67px;
+  gap: 100px;
+}
 
 .reserv__legend-game {
   font-weight: 700;
@@ -72,14 +76,12 @@
   line-height: 28px;
 
   color: #FFFFFF;
-
   margin-bottom: 24px;
   }
 
 .reserv__fieldset-check {
   display: flex;
   flex-direction: column;
-  margin-bottom: 67px;
   }
 
 .reserv__game-check {
@@ -96,48 +98,58 @@
 
 .reserv__game-checkbox {
   margin-right: 12px;
+  transform: scale(1.5);         /* FF 16+, IE 10+ */
+    -webkit-transform: scale(1.5); /* Chrome, Safari 3.5+, Opera 15+ */
+
+    -ms-transform: scale(1.5);     /* legacy: IE 9+ */
+    -moz-transform: scale(1.5);    /* legacy: FF 3.5+ */
+    -o-transform: scale(1.5);      /* legacy: Opera 10.5 */
   }
 
-.reserv__fieldset {
+.reserv__fieldset-date {
   max-width: 980px;
-  height: 228px;
   margin: 0 auto;
 
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;
   gap: 50px;
   }
 
 .reserv__setting {
   display: flex;
+  padding-top: 16px;
   flex-direction: column;
+  justify-content: space-around;
+  max-width: 300px;
+  margin-bottom: 40px;
   }
 
 .reserv__date-time {
   display: flex;
+  justify-content: space-between;
   margin-bottom: 36px;
+  gap: 32px;
+  }
+
+.reserv__date {
+  width: 50%;
+  height: 52px;
+  }
+
+.reserv__time {
+  width: 50%;
+  height: 52px;
+  }
+
+.reserv__persons {
+  width: 100%;
+  height: 52px;
   }
 
 .reserv__contacts {
   display: flex;
   flex-direction: column;
-  }
-
-.reserv__date {
-  width: 134px;
-  height: 52px;
-  margin-right: 32px;
-  }
-
-.reserv__time {
-  width: 134px;
-  height: 52px;
-  }
-
-.reserv__persons {
-  width: 300px;
-  height: 52px;
+  max-width: 300px;
   }
 
 .reserv__name {
@@ -156,6 +168,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+  margin-bottom: 6px;
 }
 
 .reserv__surname {
@@ -166,7 +179,7 @@
 .reserv__contacts {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  flex-basis: 300px;
 }
 
 .reserv__phone {
@@ -180,11 +193,17 @@
   height: 52px;
 }
 
+.reserv__button {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
 .reserv__btn {
-  width: 100%;
+  width: 300px;
   height: 60px;
 
   background: #FFFFFF;
+  border: none;
   border-radius: 10px;
   font-weight: 700;
   font-size: 22px;
@@ -192,5 +211,6 @@
   text-transform: uppercase;
 
   color: #6C0287;
+  float: right;
 }
 

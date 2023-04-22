@@ -78,3 +78,8 @@ fieldset {
 input {
   padding: 12px 20px;
 }
+
+button {
+  margin: 0;
+  padding: 0;
+}
