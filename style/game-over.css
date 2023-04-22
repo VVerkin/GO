@@ -83,6 +83,7 @@
 }
 
 .game-over__button-reserv {
+  position: absolute;
   margin: 0;
   width: 374px;
   height: 80px;
@@ -96,7 +97,7 @@
   line-height: 30px;
   text-transform: uppercase;
   color: #FFFFFF;
-  z-index: 2;
+  z-index: 1;
 }
 
 .game-over__down {
