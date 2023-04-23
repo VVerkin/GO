@@ -40,6 +40,7 @@
   height: 46px;
   background-repeat: no-repeat;
   background-size: contain;
+  cursor: pointer;
 }
 
 .questions__item:nth-child(even):after{
@@ -48,4 +49,20 @@
 
 .questions__item:nth-child(odd):after{
   background-image: url("../img/icons/open-purple.svg");
+}
+
+.questions__item:hover:nth-child(even):after {
+  background-image: url("../img/icons/open_hover.svg");
+}
+
+.questions__item:hover:nth-child(odd):after{
+  background-image: url("../img/icons/open-purple_hover.svg");
+}
+
+.questions__item:active:nth-child(even):after {
+  background-image: url("../img/icons/open_active.svg");
+}
+
+.questions__item:active:nth-child(odd):after{
+  background-image: url("../img/icons/open-purple_active.svg");
 }

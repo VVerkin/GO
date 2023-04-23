@@ -83,7 +83,6 @@
 }
 
 .game-over__button-reserv {
-  position: absolute;
   margin: 0;
   width: 374px;
   height: 80px;
@@ -100,8 +99,47 @@
   z-index: 1;
 }
 
-.game-over__down {
+.game-over__button-reserv:hover {
+  background: #840AA3;
+  box-shadow: 0 0 10px 10px rgba(132, 10, 163, 0.2);
+}
+
+.game-over__button-reserv:focus {
+  background: #840AA3;
+  box-shadow: 0 0 10px 10px rgba(132, 10, 163, 0.2);
+  outline: none;
+}
+
+.game-over__button-reserv:active {
+  background: #640AA3;
+  box-shadow: 0 0 10px 10px rgba(100, 10, 163, 0.2);
+}
+
+.game-over__link-down {
+  display:block;
+  width: 97px;
+  height: 97px;
+  background: url("../img/icons/down.svg");
   position: absolute;
-  right: calc(50% - 49px);
+  right: calc(50% - 48.5px);
   bottom: 90px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  outline: 1px solid transparent;
+  transition-property: color, outline-color;
+  transition-duration: 0.3s, 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.game-over__link-down:hover {
+  background: url("../img/icons/down_hover.svg");
+}
+
+.game-over__link-down:focus {
+  background: url("../img/icons/down_focus.svg");
+  outline-color: #CD06FF;
+}
+
+.game-over__link-down:active {
+  background: url("../img/icons/down_active.svg");
 }

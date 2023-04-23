@@ -2,15 +2,6 @@
   background: #440F51;
 }
 
-/* .reserv__wrapper {
-  display:flow-root;
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 80px 130px;
-
-  background: #440F51;
-} */
-
 .reserv__title {
   font-weight: 700;
   font-size: 40px;
@@ -43,7 +34,12 @@
   margin-bottom: 40px;
   }
 
+.reserv__hall-input {
+  display: none;
+  }
+
 .reserv__hall {
+  display: inline-block;
   width: 250px;
   height: 55px;
   padding: 7px 15px 8px;
@@ -60,9 +56,25 @@
   color: #000000;
   }
 
-  .reserv__hall-input {
-  display: none;
+  .reserv__hall:hover {
+  background: #EADEED;
+  border: 3px solid #640AA3;
   }
+
+.reserv__hall:focus {
+  background: #FFFFFF;
+  border: 3px solid #640AA3;
+  }
+
+.reserv__hall:active {
+  background: #6C0287;
+  border: 3px solid #FFFFFF;
+  outline: none;
+
+  color: #FFFFFF;
+  }
+
+
 
 .reserv__fieldset-game {
   max-width: 980px;
@@ -86,8 +98,8 @@
   display: flex;
   flex-direction: column;
   }
-
-.reserv__game-check {
+  
+.reserv__game {
   font-weight: 400;
   font-size: 22px;
   line-height: 25px;
@@ -95,18 +107,24 @@
   color: #FFFFFF;
   }
 
-.reserv__game-check:not(:last-child) {
+.reserv__game:not(:last-child) {
   margin-bottom: 22px;
-  }
+}
 
+.reserv__game-radio,
 .reserv__game-checkbox {
   margin-right: 12px;
-  transform: scale(1.5);         /* FF 16+, IE 10+ */
-    -webkit-transform: scale(1.5); /* Chrome, Safari 3.5+, Opera 15+ */
+  transform: scale(2);         /* FF 16+, IE 10+ */
+    -webkit-transform: scale(2); /* Chrome, Safari 3.5+, Opera 15+ */
 
-    -ms-transform: scale(1.5);     /* legacy: IE 9+ */
-    -moz-transform: scale(1.5);    /* legacy: FF 3.5+ */
-    -o-transform: scale(1.5);      /* legacy: Opera 10.5 */
+    -ms-transform: scale(2);     /* legacy: IE 9+ */
+    -moz-transform: scale(2);    /* legacy: FF 3.5+ */
+    -o-transform: scale(2);      /* legacy: Opera 10.5 */
+  }
+
+  .reserv__game-radio,
+  .reserv__game-checkbox:focus {
+    outline: 1px solid #CD06FF;
   }
 
 .reserv__fieldset-date {
@@ -130,29 +148,32 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 46px;
-  gap: 10x;
+  gap: 10px;
   }
 
-.reserv__date {
+.reserv__input-small {
   width: 45%;
   height: 52px;
   }
 
-.reserv__time {
-  width: 45%;
-  height: 52px;
-  }
-
-.reserv__persons {
+.reserv__input {
   width: 100%;
-  height: 52px;
-  }
+  height: 52px; 
+}
 
-.reserv__contacts {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 300px;
-  }
+.reserv__input-small, 
+.reserv__input {
+  outline: 2px solid transparent;
+  transition-property: color, outline-color;
+  transition-duration: 0.3s, 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.reserv__input-small:focus, 
+.reserv__input:focus {
+  background: #FFFFFF;
+  outline-color: #CD06FF;
+}
 
 .reserv__name {
   display: flex;
@@ -160,10 +181,11 @@
   flex-basis: 280px;
   }
 
-.reserv__firstname {
-  width: 100%;
-  height: 52px;
-}
+.reserv__contacts {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+  }
 
 .reserv__label {
   font-weight: 700;
@@ -173,21 +195,6 @@
 
 .reserv__label:not(:last-child) {
   margin-bottom: 30px;
-}
-
-.reserv__surname {
-  width: 100%;
-  height: 52px; 
-}
-
-.reserv__phone {
-  width: 100%;
-  height: 52px;
-}
-
-.reserv__email {
-  width: 100%;
-  height: 52px;
 }
 
 .reserv__button {
@@ -212,4 +219,22 @@
 
   color: #6C0287;
 }
+
+.reserv__btn:hover {
+  background: #EADEED;
+  border: 3px solid #6C0287;
+}
+
+.reserv__btn:focus {
+  background: #FFFFFF;
+  outline: 3px solid #6C0287;
+}
+
+.reserv__btn:active {
+  background: #EADEED;
+  border: none;
+  outline: none;
+}
+
+
 
