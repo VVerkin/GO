@@ -98,34 +98,132 @@
   display: flex;
   flex-direction: column;
   }
-  
-.reserv__game {
+
+.reserv__check {
+  position: relative;
+  display: block;
+  margin-bottom: 26px;
+  padding-left: 40px;
   font-weight: 400;
   font-size: 22px;
   line-height: 25px;
-  
-  color: #FFFFFF;
-  }
-
-.reserv__game:not(:last-child) {
-  margin-bottom: 22px;
 }
 
-.reserv__game-radio,
-.reserv__game-checkbox {
-  margin-right: 12px;
-  transform: scale(2);         /* FF 16+, IE 10+ */
-    -webkit-transform: scale(2); /* Chrome, Safari 3.5+, Opera 15+ */
+/* Создаем кастомный radio */
 
-    -ms-transform: scale(2);     /* legacy: IE 9+ */
-    -moz-transform: scale(2);    /* legacy: FF 3.5+ */
-    -o-transform: scale(2);      /* legacy: Opera 10.5 */
+.radio__input {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-left: -42px;
+}
+
+.radio__input:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 27px;
+  height: 27px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+}
+
+.radio__input:after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  display: block;
+  width: 17px;
+  height: 17px;
+  background-color: #440F51;
+  border-radius:50%;
+  opacity: 0;
+  background-position: center;
+}
+
+.radio__input:focus-visible {
+  outline: none;
+}
+
+.radio__input:checked:after {
+  opacity: 1
+}
+
+.radio__input:focus:before {
+  outline: 1px solid #CD06FF;
+  outline-offset: 3px;
+}
+
+.radio__input:hover:not(:disabled):before {
+  box-shadow: 0px 0px 10px rgba(227, 0, 219, 0.792);
+}
+
+.radio__input:disabled:before {
+  background-color: #cccccc;
+}
+
+  /* Создаем кастомный чекбокс */
+
+  .checkbox__input {
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-left: -42px;
   }
 
-  .reserv__game-radio,
-  .reserv__game-checkbox:focus {
+  .checkbox__input:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 27px;
+    height: 27px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .checkbox__input:after {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 4px;
+    width: 20px;
+    height: 10px;
+    border: 3px solid black;
+    border-top: none;
+    border-right: none;
+    opacity: 0;
+    transform: rotate(-45deg); 
+  }
+  
+  .checkbox__input:focus-visible {
+    outline: none;
+  }
+  
+  .checkbox__input:checked:after {
+    opacity: 1
+  }
+  
+  .checkbox__input:focus:before {
     outline: 1px solid #CD06FF;
+    outline-offset: 3px;
   }
+  
+  .checkbox__input:hover:not(:disabled):before {
+    box-shadow: 0px 0px 10px rgba(227, 0, 219, 0.792);
+  }
+  
+  .checkbox__input:disabled:before {
+    background-color: #cccccc;
+  }
+  /* Делаем кастомный чекбокс */
 
 .reserv__fieldset-date {
   max-width: 980px;
