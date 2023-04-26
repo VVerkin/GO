@@ -41,6 +41,10 @@
   background-repeat: no-repeat;
   background-size: contain;
   cursor: pointer;
+
+  transition-property: background-image;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .questions__item:nth-child(even):after{
