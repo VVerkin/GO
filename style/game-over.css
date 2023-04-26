@@ -97,6 +97,10 @@
   text-transform: uppercase;
   color: #FFFFFF;
   z-index: 1;
+
+  transition-property: background, box-shadow;
+  transition-duration: 0.3s, 0.4s;
+  transition-timing-function: ease-in-out;
 }
 
 .game-over__button-reserv:hover {
@@ -126,8 +130,9 @@
   z-index: 1;
   background-repeat: no-repeat;
   outline: 1px solid transparent;
-  transition-property: color, outline-color;
-  transition-duration: 0.3s, 0.2s;
+  
+  transition-property: background, outline-color;
+  transition-duration: 0.3s, 0.3s;
   transition-timing-function: ease-in-out;
 }
 

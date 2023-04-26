@@ -34,9 +34,13 @@
   text-transform: uppercase;
   
   color: #FFFFFF;
-  background-color: #1B1A1B;
+  background: #1B1A1B;
   border: 3px solid #CD06FF;
   border-radius: 10px;
+
+  transition-property: background;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .header__button-call:hover {
