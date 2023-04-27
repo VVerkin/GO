@@ -1,5 +1,5 @@
 .reserv {
-  background: #440F51;
+  background: var(--main-color);
 }
 
 .reserv__title {
@@ -54,6 +54,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+  outline: none;
 
   transition-property: background, border;
   transition-duration: 0.3s, 0.1s;
@@ -62,12 +63,12 @@
 
   .reserv__hall:hover {
   background: #EADEED;
-  border: 3px solid #640AA3;
+  outline: 3px solid #640AA3;
   }
 
 .reserv__hall:focus {
   background: #FFFFFF;
-  border: 3px solid #640AA3;
+  outline: 3px solid #640AA3;
   }
 
 .reserv__hall:active {
@@ -134,7 +135,7 @@
   background-color: #ffffff;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
   border-radius: 50%;
-  outline-color: #440F51;
+  outline-color: var(--main-color);
   transition-property: outline-color, box-shadow;
   transition-duration: 0.3s, 0.3s;
   transition-timing-function: ease-in-out;
@@ -148,7 +149,7 @@
   display: block;
   width: 17px;
   height: 17px;
-  background-color: #440F51;
+  background-color: var(--main-color);
   border-radius:50%;
   opacity: 0;
   background-position: center;
@@ -166,7 +167,7 @@
 }
 
 .radio__input:focus:before {
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--highlight-color);
   outline-offset: 3px;
 }
 
@@ -197,7 +198,7 @@
     width: 27px;
     height: 27px;
     background-color: #ffffff;
-    outline-color: #440F51;
+    outline-color: var(--main-color);
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
     transition-property: outline, box-shadow;
     transition-duration: 0.3s, 0.3s;
@@ -230,7 +231,7 @@
   }
   
   .checkbox__input:focus:before {
-    outline: 1px solid #CD06FF;
+    outline: 1px solid var(--highlight-color);
     outline-offset: 3px;
   }
   
@@ -288,7 +289,7 @@
 .reserv__input-small:focus, 
 .reserv__input:focus {
   background: #FFFFFF;
-  outline-color: #CD06FF;
+  outline-color: var(--highlight-color);
 }
 
 .reserv__name {

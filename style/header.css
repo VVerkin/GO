@@ -34,8 +34,8 @@
   text-transform: uppercase;
   
   color: #FFFFFF;
-  background: #1B1A1B;
-  border: 3px solid #CD06FF;
+  background: var(--background-all);
+  border: 3px solid var(--highlight-color);
   border-radius: 10px;
 
   transition-property: background;

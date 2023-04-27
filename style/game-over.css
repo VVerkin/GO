@@ -58,7 +58,7 @@
   font-size: 100px;
   line-height: 141px;
   z-index: 1;
-  color: #CD06FF;
+  color: var(--highlight-color);
 }
 
 .game-over__text-new {
@@ -69,7 +69,7 @@
   line-height: 106px;
   font-variant-caps: small-caps;
   z-index: 1;
-  color: #CD06FF;
+  color: var(--highlight-color);
 }
 
 .game-over__text-small {
@@ -142,7 +142,7 @@
 
 .game-over__link-down:focus {
   background: url("../img/icons/down_focus.svg");
-  outline-color: #CD06FF;
+  outline-color: var(--highlight-color);
 }
 
 .game-over__link-down:active {

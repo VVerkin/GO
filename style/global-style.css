@@ -13,7 +13,7 @@ body {
   min-width: 320px; 
   min-height: 100vh; 
 
-  background-color: #1B1A1B;
+  background-color: var(--background-all);
   color: #FFFFFF;
 
   font-family: arial, sans-serif;

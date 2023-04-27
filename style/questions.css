@@ -28,7 +28,7 @@
 }
 
 .questions__item:nth-child(2n) {
-  background-color:#440F51;
+  background-color:var(--main-color);
   color: #fff;
 }
 
