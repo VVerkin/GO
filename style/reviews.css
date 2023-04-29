@@ -24,6 +24,7 @@
   object-position: top;
   border-radius: 50%;
   margin-bottom: 11px;
+
   }
 
 .reviews__figure {
@@ -42,4 +43,16 @@
   vertical-align: top;
   font-size: 20px;
   line-height: 28px;
+}
+
+.img-wrapper:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 280px;
+  height: 280px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%);
+  border-radius: 50%;
 }
