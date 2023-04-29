@@ -8,7 +8,6 @@
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
   margin-bottom: 50px;
 }
 
@@ -29,8 +28,6 @@
   font-size: 24px;
   line-height: 28px;
   text-align: center;
-
-  color: #FFFFFF;
   margin-bottom: 40px;
   }
 
@@ -44,7 +41,7 @@
   height: 55px;
   padding: 7px 15px 8px;
   cursor: pointer;
-  background: #FFFFFF;
+  background: var(--light-bg-color);
   border-radius: 8px;
   user-select: none;
 
@@ -53,7 +50,7 @@
   line-height: 40px;
   text-align: center;
   text-transform: uppercase;
-  color: #000000;
+  color: var(--font-color-dark);
   outline: none;
 
   transition-property: background, border;
@@ -62,21 +59,21 @@
   }
 
   .reserv__hall:hover {
-  background: #EADEED;
-  outline: 3px solid #640AA3;
+  background: var(--social-color);
+  outline: 3px solid var(--elements-status-second-color);
   }
 
 .reserv__hall:focus {
-  background: #FFFFFF;
-  outline: 3px solid #640AA3;
+  background: var(--light-bg-color);
+  outline: 3px solid var(--elements-status-second-color);
   }
 
 .reserv__hall:active {
-  background: #6C0287;
-  border: 3px solid #FFFFFF;
+  background: var(--elements-bg-color);
+  border: 3px solid var(--light-bg-color);
   outline: none;
 
-  color: #FFFFFF;
+  color: var(--font-color);
   }
 
 .reserv__fieldset-game {
@@ -92,8 +89,6 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-
-  color: #FFFFFF;
   margin-bottom: 24px;
   }
 
@@ -130,7 +125,7 @@
   display: block;
   width: 27px;
   height: 27px;
-  background-color: #ffffff;
+  background-color: var(--light-bg-color);
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
   border-radius: 50%;
   outline-color: var(--main-color);
@@ -174,7 +169,7 @@
 }
 
 .radio__input:disabled:before {
-  background-color: #cccccc;
+  background-color: var(--disabled-color);
 }
 
   /* Создаем кастомный чекбокс */
@@ -195,7 +190,7 @@
     display: block;
     width: 27px;
     height: 27px;
-    background-color: #ffffff;
+    background-color: var(--light-bg-color);
     outline-color: var(--main-color);
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
     transition-property: outline, box-shadow;
@@ -210,7 +205,7 @@
     left: 4px;
     width: 20px;
     height: 10px;
-    border: 3px solid black;
+    border: 3px solid var(--font-color-dark);
     border-top: none;
     border-right: none;
     opacity: 0;
@@ -238,7 +233,7 @@
   }
   
   .checkbox__input:disabled:before {
-    background-color: #cccccc;
+    background-color: var(--disabled-color);
   }
   /* Делаем кастомный чекбокс */
 
@@ -286,7 +281,7 @@
 
 .reserv__input-small:focus, 
 .reserv__input:focus {
-  background: #FFFFFF;
+  background: var(--light-bg-color);
   outline-color: var(--highlight-color);
 }
 
@@ -324,7 +319,7 @@
   width: 300px;
   height: 60px;
 
-  background: #FFFFFF;
+  background: var(--light-bg-color);
   border: none;
   border-radius: 10px;
   font-weight: 700;
@@ -332,7 +327,7 @@
   line-height: 28px;
   text-transform: uppercase;
 
-  color: #6C0287;
+  color: var(--elements-bg-color);
 
   transition-property: background, border;
   transition-duration: 0.3s, 0.1s;
@@ -340,17 +335,17 @@
 }
 
 .reserv__btn:hover {
-  background: #EADEED;
-  border: 3px solid #6C0287;
+  background: var(--social-color);
+  border: 3px solid var(--elements-bg-color);
 }
 
 .reserv__btn:focus {
   background: #FFFFFF;
-  border: 3px solid #6C0287;
+  border: 3px solid var(--elements-bg-color);
 }
 
 .reserv__btn:active {
-  background: #EADEED;
+  background: var(--social-color);
   border: none;
   outline: none;
 }

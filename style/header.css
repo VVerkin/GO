@@ -33,7 +33,7 @@
   line-height: 30px;  
   text-transform: uppercase;
   
-  color: #FFFFFF;
+  color: var(--font-color);
   background: var(--background-all);
   border: 3px solid var(--highlight-color);
   border-radius: 10px;
@@ -44,17 +44,17 @@
 }
 
 .header__button-call:hover {
-  background: #6C0287;
-  border: 3px solid #6C0287;
+  background: var(--elements-bg-color);
+  border: 3px solid var(--elements-bg-color);
 }
 
 .header__button-call:focus {
-  background: #6C0287;
+  background: var(--elements-bg-color);
   border: none;
   outline: none;
 }
 
 .header__button-call:active {
-  background: #640AA3;
+  background: var(--elements-status-second-color);
   border: 1px solid #000000;
 }
