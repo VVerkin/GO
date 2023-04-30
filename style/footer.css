@@ -9,7 +9,6 @@
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
   margin-bottom: 54px;
 }
 
@@ -81,16 +80,16 @@ margin-right: 28px;
 }
 
 .social__link:hover {
-  color: var(--social-color);
+  color: var(--white-purple-color);
 }
 
 .social__link:focus {
-  color: var(--social-color);
-  outline-color: var(--highlight-color);
+  color: var(--white-purple-color);
+  outline-color: var(--light-purple-color);
 }
 
 .social__link:active {
-  color: var(--highlight-color);
+  color: var(--light-purple-color);
 }
 
 .footer__right {

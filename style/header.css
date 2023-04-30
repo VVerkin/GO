@@ -33,9 +33,9 @@
   line-height: 30px;  
   text-transform: uppercase;
   
-  color: var(--font-color);
-  background: var(--background-all);
-  border: 3px solid var(--highlight-color);
+  color: var(--white-color);
+  background: var(--background-color);
+  border: 3px solid var(--light-purple-color);
   border-radius: 10px;
 
   transition-property: background;
@@ -44,17 +44,17 @@
 }
 
 .header__button-call:hover {
-  background: var(--elements-bg-color);
-  border: 3px solid var(--elements-bg-color);
+  background: var(--dark-purple-color);
+  border: 3px solid var(--dark-purple-color);
 }
 
 .header__button-call:focus {
-  background: var(--elements-bg-color);
+  background: var(--dark-purple-color);
   border: none;
   outline: none;
 }
 
 .header__button-call:active {
-  background: var(--elements-status-second-color);
-  border: 1px solid #000000;
+  background: var(--violet-color);
+  border: 1px solid var(--black-color);
 }

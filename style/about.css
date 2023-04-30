@@ -36,6 +36,28 @@
   white-space: pre-line;
 }
 
+.about__cite:before {
+  content:"\201c";
+  display:inline-block;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: var(--dark-purple-color);
+}
+
+.about__cite:after {
+  content:"\201d";
+  display:inline-block;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: var(--dark-purple-color);
+}
+
+
+
 .about__autor {
   width: 389px;
   height: 84px;

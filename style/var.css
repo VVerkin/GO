@@ -1,14 +1,13 @@
 :root {
-  --background-all: #1a1b1b;
-  --font-color:#ffffff;
-  --font-color-dark: #000000;
-  --main-color: #440F51;
-  --highlight-color: #CD06FF;
-  --social-color: #EADEED;
-  --elements-bg-color: #6C0287;
-  --elements-status-first-color: #840AA3;
-  --elements-status-second-color: #640AA3;
-  --light-bg-color: #ffffff;
-  --questions-first-color: #1C1A1A;
-  --disabled-color: #cccccc;
+  --background-color: #1a1b1b;
+  --white-color:#ffffff;
+  --black-color: #000000;
+  --deep-purple-color: #440F51;
+  --light-purple-color: #CD06FF;
+  --white-purple-color: #EADEED;
+  --dark-purple-color: #6C0287;
+  --purple-color: #840AA3;
+  --violet-color: #640AA3;
+  --graphite-blac-color: #1C1A1A;
+  --gray-color: #cccccc;
 }
