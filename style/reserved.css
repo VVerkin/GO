@@ -340,7 +340,7 @@
 }
 
 .reserv__btn:focus {
-  background: #FFFFFF;
+  background: var(--white-color);
   border: 3px solid var(--dark-purple-color);
 }
 

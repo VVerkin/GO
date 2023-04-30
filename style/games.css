@@ -33,7 +33,7 @@ figure {
   font-size: 20px;
   line-height: 28px;
 
-  color: #FFFFFF;
+  color: var(--white-color);
   white-space: pre-line;
 }
 
