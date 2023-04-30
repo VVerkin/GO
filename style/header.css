@@ -6,9 +6,29 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 50px;
-
   text-transform: uppercase;
   white-space: nowrap;
+
+}
+
+.navigation__link {
+  transition-property: color, outline;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease-in-out;
+  outline-color: var(--background-color);
+}
+
+.navigation__link:hover {
+  color: var(--light-purple-color);
+}
+
+.navigation__link:focus {
+  outline-offset: 5px;
+  outline: 1px solid var(--light-purple-color);
+}
+
+.navigation__link:active {
+  color: var(--dark-purple-color);
 }
 
 .flex {
