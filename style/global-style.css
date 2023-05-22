@@ -1,6 +1,9 @@
 html {
   box-sizing: border-box; 
   position: relative; 
+  
+/* Плавная прокрутка */
+  scroll-behavior: smooth;
 }
 
 *,
@@ -59,6 +62,10 @@ figure,
 fieldset,
 blockquote {
   margin: 0;
+}
+
+figure {
+  position: relative;s
 }
 
 iframe {

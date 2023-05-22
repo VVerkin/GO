@@ -1,6 +1,6 @@
 .games {
   --cart-count: 3;
-  --gap: 20px;
+  --gap: 40px 20px;
 }
 
 .games__title {
@@ -9,6 +9,7 @@
   font-size: 40px;
   line-height: 50px; 
   text-align: center;
+  white-space: pre-line;
   text-transform: uppercase;
   margin-bottom: 41px;
 }
@@ -18,10 +19,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: var(--gap);
-}
-
-figure {
-  position: relative;
 }
 
 .games__figcaption {
