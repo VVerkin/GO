@@ -47,6 +47,7 @@
 .header__button-call {
   width: 280px;
   height: 55px;
+  padding-top: 3px;
 
   font-weight: 700;
   font-size: 22px;

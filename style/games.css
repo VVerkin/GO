@@ -4,7 +4,7 @@
 }
 
 .games__title {
-  padding: 0 30px;
+  padding: 0 7px 0 0;
   font-weight: 700;
   font-size: 40px;
   line-height: 50px; 
@@ -50,4 +50,8 @@
 
 .games__item:nth-child(2n+4) {
   margin-top: -70px;
+}
+
+.games__img {
+display: block;
 }
