@@ -9,7 +9,7 @@
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 54px;
+  margin-bottom: 46px;
 }
 
 .footer__address {
@@ -31,16 +31,16 @@ margin-right: 28px;
 }
 
 .address {
-  margin-bottom: 39px;
+  margin-bottom: 45px;
   position: relative;
 }
 .phone {
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 
 .address:before {
   background-image: url("../img/contacts/location.svg");
-  margin-top: 10px;
+  margin-top: 15px;
   margin-right: 28px;
 }
 
@@ -51,6 +51,8 @@ margin-right: 28px;
 
 .email:before {
   background-image: url("../img/contacts/mail.svg");
+  width: 32px;
+  margin-top: 1px;
   margin-right: 28px;
 }
 
@@ -93,7 +95,7 @@ margin-right: 28px;
 }
 
 .footer__right {
-  margin-bottom: 156px;
+  margin-bottom: 142px;
 }
 
 .footer__wrapper {
@@ -111,4 +113,8 @@ margin-right: 28px;
 
 .footer__info-autor {
   text-align: right;
+}
+
+.footer__info-autor-top {
+  margin-bottom: 5px;
 }
