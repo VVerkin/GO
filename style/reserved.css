@@ -1,6 +1,6 @@
 .reserv {
   background: var( --deep-purple-color);
-  padding-top: 80px;
+  padding: 80px 0;
 }
 
 .reserv__title {
@@ -10,10 +10,6 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 45px;
-}
-
-.reserv__form {
-  margin-bottom: 40px;
 }
 
 .reserv__fieldset-hall {
@@ -80,10 +76,10 @@
 .reserv__fieldset-game {
   max-width: 980px;
   display: flex;
-  justify-content: space-between;
   margin: 0 auto;
-  margin-bottom: 67px;
-  gap: 100px;
+  justify-content: space-between;
+  margin-bottom: 65px;
+  gap: 20px;
 }
 
 .reserv__legend-game {
@@ -96,12 +92,12 @@
 .reserv__fieldset-check {
   display: flex;
   flex-direction: column;
+  gap: 22px;
   }
 
 .reserv__check {
   position: relative;
   display: block;
-  margin-bottom: 26px;
   padding-left: 40px;
   font-weight: 400;
   font-size: 22px;
@@ -182,15 +178,14 @@
     appearance: none;
     margin-left: -42px;
   }
-
   .checkbox__input:before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     display: block;
-    width: 27px;
-    height: 27px;
+    width: 25px;
+    height: 25px;
     background-color: var(--white-color);
     outline-color: var(--deep-purple-color);
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
@@ -258,7 +253,7 @@
 .reserv__date-time {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 46px;
+  margin-bottom: 38px;
   gap: 10px;
   }
 
@@ -305,7 +300,7 @@
 }
 
 .reserv__label:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 22px;
 }
 
 .reserv__button {
@@ -350,6 +345,16 @@
   border: none;
   outline: none;
 }
+.fieldset-left {
+  padding: 0 17px 0 0px;
+}
 
+.fieldset-middle {
+  padding: 0 32px 0 0px;
+}
+
+.fieldset-right{
+  padding: 0 9px 0 0px;
+}
 
 
