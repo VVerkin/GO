@@ -12,20 +12,24 @@
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 47px;
 }
 
 .about__text {
-  margin-bottom: 78px;
+  display: inline-block;
+  width: 490px;
+  margin-bottom: 58px;
 }
 
 .about__item {
-  font-size: 20px;
-  line-height: 28px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    white-space: pre-line;
 }
 
 .about__item:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .about__blockquote {
@@ -33,16 +37,21 @@
 }
 
 .about__cite {
+  position: relative;
   text-transform: uppercase;
   font-size: 44px;
+  padding-left: 28px;
   line-height: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 27px;
   white-space: pre-line;
 }
 
 .about__cite:before {
   content:"\201c";
-  display:inline-block;
+  position: absolute;
+  top: -10px;
+  left: -1px;
+  display:inlne-block;
   font-weight: 900;
   font-size: 44px;
   line-height: 50px;
@@ -59,9 +68,6 @@
   text-transform: uppercase;
   color: var(--dark-purple-color);
 }
-
-
-
 .about__autor {
   width: 389px;
   height: 84px;
@@ -77,8 +83,9 @@
   width: 80px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: top;
-  margin-right: 30px;
+  object-position: 0px -10px;
+  margin-right: 25px;
+  vertical-align: bottom;
 }
 
 .about__text-block {
