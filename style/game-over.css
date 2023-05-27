@@ -148,3 +148,53 @@
 .game-over__link-down:active {
   background: url("../img/icons/down_active.svg");
 }
+
+@media (max-width: 1240px) {
+
+  .game-over__wrapper {
+    min-height: 583px;
+  }
+  
+  .game-over__wrapper:before {
+    width: 453px;
+    height: 520px;
+    background-size: 457px 520px;
+  }
+
+  .game-over__header {
+    font-size: 120px;
+    line-height: 120px;
+  }
+
+  .game-over__subheader {
+    font-size: 22px;
+    line-height: 30px;
+    padding-left: 160px;
+    margin-bottom: 30px;
+  }
+  .game-over__text {
+    max-width: 345px;
+    margin-bottom: 80px;
+  }
+  
+  .game-over__text-left {
+    
+    margin-right: 40px;
+  }
+  
+  .game-over__text-four{
+    font-size: 80px;
+    line-height: 113px;
+  }
+  
+  .game-over__text-new {
+    font-size: 60px;
+    line-height: 85px;
+  }
+  
+  .game-over__text-small {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
