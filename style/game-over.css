@@ -164,12 +164,13 @@
   .game-over__header {
     font-size: 120px;
     line-height: 120px;
+    margin-bottom: 20px;
   }
 
   .game-over__subheader {
     font-size: 22px;
     line-height: 30px;
-    padding-left: 160px;
+    padding-left: 100px;
     margin-bottom: 30px;
   }
   .game-over__text {
@@ -199,10 +200,23 @@
   }
 
   .game-over__button-reserv {
+    position: absolute;
+    left: 38px;
     width: 296px;
     height: 64px;  
     font-size: 22px;
     line-height: 30px;
+  }
 
+  .game-over__link-down,
+  .game-over__link-down:hover,
+  .game-over__link-down:focus,
+  .game-over__link-down:active
+  {
+    width: 67px;
+    height: 67px;
+    background-size: 67px 67px;
+    right: calc(50% - 33.5px);
+    bottom: 46px;
   }
 }
