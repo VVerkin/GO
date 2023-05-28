@@ -197,4 +197,12 @@
     font-size: 26px;
     line-height: 30px;
   }
+
+  .game-over__button-reserv {
+    width: 296px;
+    height: 64px;  
+    font-size: 22px;
+    line-height: 30px;
+
+  }
 }

@@ -52,12 +52,18 @@ display: block;
 
 @media (max-width: 1240px) {
 
+  .games__title {
+    font-size: 30px;
+    line-height: 40px; 
+    margin-bottom: 36px;
+  }
+
   .games__list {
     gap: 30px 22px;
     justify-content: center;
   }
   .games__item {
-    width: 287px;
+    width: 286px;
   }
 
 

@@ -8,7 +8,6 @@
   line-height: 50px;
   text-transform: uppercase;
   white-space: nowrap;
-
 }
 
 .navigation__link {
@@ -78,4 +77,33 @@
 .header__button-call:active {
   background: var(--violet-color);
   border: 1px solid var(--black-color);
+}
+
+@media (max-width: 1240px) {
+  .header__logo {
+    width: 87px;
+    height: 55px;
+  }
+
+  .navigation__item {
+    font-size: 18px;
+    line-height: 22px;  
+  }
+  
+  .flex {
+    gap: 10px;
+  }
+  
+  .navigation__list {
+    gap: 20px;
+  }
+  
+  .header__button-call {
+    width: 229px;
+    height: 45px;
+    font-size: 18px;
+    line-height: 24px;  
+    border-radius: 8px;
+  }
+
 }
