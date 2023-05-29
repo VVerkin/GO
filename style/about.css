@@ -1,5 +1,6 @@
 .about {
     padding: 100px 0 50px;
+
 }
 
 .about__container {
@@ -17,7 +18,7 @@
 
 .about__text {
   display: inline-block;
-  width: 490px;
+  max-width: 490px;
   margin-bottom: 58px;
 }
 
@@ -96,4 +97,68 @@
 .about__collage {
   float: left;
   margin-right: 80px;
+}
+
+@media (max-width: 1240px) {
+  .about {
+    padding: 70px 0 50px;
+}
+
+.about__title {
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 26px;
+}
+
+.about__collage {
+  max-width: 420px;
+  margin-right: 40px;
+}
+
+.about__text {
+  max-width: 444px;
+  margin-bottom: 37px;
+}
+
+.about__item {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.about__cite {
+  width: 410px;
+  height: 115px;
+  font-size: 30px;
+  padding: 0 0 0 25px;
+  line-height: 36px;
+  margin: 0 0 16px 0;
+  white-space: normal;
+}
+.about__cite:before {
+font-size: 30px;
+line-height: 36px;
+}
+
+.about__cite:after {
+  position: absolute;
+  top: 75px;
+  left: 255px;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.about__autor {
+  padding-left: 39px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.about__text-block {
+}
+
+.about__img {
+  height: 70px;
+  width: 70px;
+  margin-right: 35px;
+}
 }
