@@ -361,3 +361,104 @@
   outline: none;
 }
 
+@media (max-width: 1240px) {
+  .reserv {
+    background: var( --deep-purple-color);
+    padding: 60px 0;
+  }
+
+  .reserv__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
+
+  .reserv__fieldset-hall {
+    max-width: 903px;
+  }
+
+  .reserv__legend {
+    margin-bottom: 26px;
+    }
+
+  .reserv__hall {
+    width: 180px;
+    height: 44px;
+    padding: 10px 20px;
+
+    font-size: 20px;
+    line-height: 24px;
+    }
+
+  .reserv__fieldset-game {
+    max-width: 903px;
+  }
+
+  .fieldset-middle {
+    padding-left: 10px;
+    margin-right: 11px;
+  }
+  
+  .fieldset-right {
+    padding-left: 10px;
+    margin: 0 13px 0 8px;
+  }
+  
+  .reserv__check {
+    position: relative;
+    display: block;
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .fieldset-left {
+    padding-top: 3px;
+  }
+
+  .fieldset-middle {
+    padding-left: 21px;
+    margin-right: 10px;
+  }
+
+  .fieldset-right {
+    padding-left: 13px;
+    margin: 0 67px 0 8px;
+  }
+
+  .reserv__fieldset-date {
+    max-width: 903px;
+    margin-bottom: 48px;
+  }
+
+  .reserv__setting {
+    padding-top: 20px;
+  }
+  
+  .reserv__name {
+    flex-basis: 251px;
+  }
+
+  .reserv__contacts {
+    flex-basis: 254px;
+  }
+
+  .reserv__label:not(:last-child) {
+    margin-bottom: 20px;
+    padding-top: 2px;
+  }
+
+  .reserv__button {
+    max-width: 903px;
+  }
+
+  .reserv__btn {
+    width: 254px;
+    height: 50px;
+
+  border-radius: 8px;
+  font-size: 18px;
+  line-height: 24px;
+  }
+}
