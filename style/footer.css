@@ -101,7 +101,7 @@ margin-right: 24px;
 }
 
 .footer__right {
-  margin-bottom: 142px;
+  margin-bottom: 90px;
 }
 
 .footer__wrapper {
@@ -123,4 +123,62 @@ margin-right: 24px;
 
 .footer__info-autor-top {
   margin-bottom: 5px;
+}
+
+@media (max-width: 1240px) {
+  .footer {
+  padding: 50px 0 20px;
+  }
+
+  .footer__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 26px;
+  }
+
+  .footer__address {
+    margin-bottom: 40px;
+  }
+
+  .footer__list-item {
+    margin-right: 13px;
+    }
+
+    .footer__list-item:before {
+      width: 26px;
+      height: 26px;
+    }
+
+    .address {
+      margin-bottom: 43px;
+    }
+
+    .phone {
+      margin-bottom: 8px;
+    }
+
+    .address:before {
+      margin-top: 15px;
+      margin-right: 13px;
+    }
+    
+    .phone:before {
+      margin-top: 4px;
+      margin-right: 14px;
+    }
+    
+    .email:before {
+      margin-top: 4px;
+      margin-right: 13px;
+    }
+
+    .footer__right-map {
+      max-width: 542px;
+      height: 274px;
+    }
+
+    .social__item {
+      width: 40px;
+      height: 40px;
+    }
 }
