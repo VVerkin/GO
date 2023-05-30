@@ -70,3 +70,48 @@
 .questions__item:active:nth-child(odd):after{
   background-image: url("../img/icons/open-purple_active.svg");
 }
+
+@media (max-width: 1240px) {
+  .questions__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 26px;
+  }
+  
+  .questions__item,
+  .questions__item:nth-child(2n) {
+    height: 70px;
+    background-color: var(--white-color);
+    color: var(--graphite-blac-color);
+    font-size: 20px;
+    line-height: 24px;
+    padding: 24px;
+    margin-bottom: 16px;  
+  }
+
+  .questions__item:nth-child(4) {
+    margin-bottom: 0;
+  }
+
+  .questions__item:nth-child(5) {
+    display: none;
+  }
+
+  .questions__item:after {
+    top: -10px;
+    left: 4px;
+  }
+
+  .questions__item:nth-child(even):after {
+    background-image: url("../img/icons/open-purple.svg");
+  }
+
+  .questions__item:hover:nth-child(even):after{
+    background-image: url("../img/icons/open-purple_hover.svg");
+  }
+
+  .questions__item:active:nth-child(even):after{
+    background-image: url("../img/icons/open-purple_active.svg");
+  }
+
+}
