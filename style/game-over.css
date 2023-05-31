@@ -233,9 +233,9 @@
   }
 
   .game-over__wrapper:before {
-    width: 409px;
-    height: 479px;
-    background-size: 409px 479px;
+    width: 411px;
+    height: 480px;
+    background-size: 420px 480px;
   }
 
   .game-over__header {
@@ -280,5 +280,9 @@
     height: 46px;  
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .game-over__link-down {
+    display: none;
   }
 }
