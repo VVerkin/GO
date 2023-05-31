@@ -30,6 +30,10 @@
   color: var(--dark-purple-color);
 }
 
+.navigation__menu {
+  display: none;
+}
+
 .flex {
   display: flex;
   justify-content: space-between;
@@ -105,5 +109,28 @@
     line-height: 24px;  
     border-radius: 8px;
   }
+}
 
+@media (max-width: 980px) {
+  .navigation__list {
+    display: none;
+  }
+
+  .navigation__menu {
+    order: 1;
+    display: block;
+    width: 54px;
+    height: 29px;
+    background-image: url('../img/icons/header/menu.svg');
+    background-color: var(--background-color);
+    border: none;
+  }
+
+  .header__logo {
+    order: 2;
+  }
+
+  .header__button-call {
+    order: 3;
+  }
 }

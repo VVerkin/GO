@@ -1,5 +1,5 @@
 .about {
-    padding: 100px 0 50px;
+  padding: 100px 0 50px;
 
 }
 
@@ -116,7 +116,7 @@
 }
 
 .about__blockquote {
-  width: 444px;
+  max-width: 444px;
 } 
 
 .about__text {
@@ -129,7 +129,7 @@
 }
 
 .about__cite {
-  width: 410px;
+  max-width: 410px;
   font-size: 30px;
   padding: 0 0 0 25px;
   line-height: 36px;
@@ -158,7 +158,7 @@ line-height: 36px;
 }
 
 .about__text-block {
-  width: 225px;
+  max-width: 225px;
 }
 
 .about__img {

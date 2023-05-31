@@ -374,12 +374,12 @@
   }
 
   .reserv__fieldset-hall {
-    max-width: 903px;
+    max-width: 904px;
   }
 
   .reserv__legend {
     margin-bottom: 26px;
-    }
+  }
 
   .reserv__hall {
     width: 180px;
@@ -388,10 +388,10 @@
 
     font-size: 20px;
     line-height: 24px;
-    }
+  }
 
   .reserv__fieldset-game {
-    max-width: 903px;
+    max-width: 904px;
   }
 
   .fieldset-middle {
@@ -428,7 +428,7 @@
   }
 
   .reserv__fieldset-date {
-    max-width: 903px;
+    max-width: 904px;
     margin-bottom: 48px;
   }
 
