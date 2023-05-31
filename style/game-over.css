@@ -154,7 +154,6 @@
     padding: 30px 0 50px 0;
   }
 
-
   .game-over__wrapper {
     min-height: 583px;
   }
@@ -177,6 +176,7 @@
     padding-left: 100px;
     margin-bottom: 30px;
   }
+
   .game-over__text {
     max-width: 345px;
     margin-bottom: 80px;
@@ -241,5 +241,44 @@
   .game-over__header {
     font-size: 86px;
     line-height: 86px;
+  }
+
+  .game-over__subheader {
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 70px;
+    margin-bottom: 50px;
+  }
+
+  .game-over__text {
+    max-width: 222px;
+    margin-bottom: 100px;
+  }
+  
+  .game-over__text-left { 
+    margin-right: 30px;
+  }
+  
+  .game-over__text-four{
+    font-size: 50px;
+    line-height: 71px;
+  }
+  
+  .game-over__text-new {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  
+  .game-over__text-small {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .game-over__button-reserv {
+    left: 0;
+    width: 214px;
+    height: 46px;  
+    font-size: 16px;
+    line-height: 24px;
   }
 }
