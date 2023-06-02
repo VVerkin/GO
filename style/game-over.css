@@ -228,6 +228,10 @@
 }
 
 @media (max-width: 980px) {
+  .game-over {
+    padding-top: 28px;
+  }
+
   .game-over__wrapper {
     min-height: 537px;
   }
@@ -236,11 +240,13 @@
     width: 411px;
     height: 480px;
     background-size: 420px 480px;
+    right: 3px;
   }
 
   .game-over__header {
     font-size: 86px;
     line-height: 86px;
+    padding-left: 2px;
   }
 
   .game-over__subheader {
@@ -280,6 +286,7 @@
     height: 46px;  
     font-size: 16px;
     line-height: 24px;
+    border-radius: 4px;
   }
 
   .game-over__link-down {
