@@ -495,5 +495,59 @@
 
   .reserv__fieldset-game {
     max-width: 688px;
+    min-height: 513px;
+    flex-wrap: wrap;
   }
+
+  .reserv__fieldset-check {
+    padding: 0;
+    /* height: 27px; */
+    gap: 20px;
+
+  }
+
+  .fieldset-middle {
+    margin: 0 106px 20px 0;
+  }
+
+  .fieldset-right {
+    margin: 0;
+  }
+
+
+
+  .radio__input:before {
+    width: 40px;
+    height: 40px;
+    top: -9px;
+    left: -18px;
+  }
+
+  .checkbox__input:before {
+    width: 40px;
+    height: 40px;
+    top: -9px;
+    left: -21px;
+  }
+    
+
+  .radio__input:after {
+    top: 10px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .checkbox__input:after {
+  top: 6px;
+  left: 8px;
+  width: 25px;
+  height: 15px;
+  }
+
+.reserv__check {
+  display: inline-block;
+  padding: 8px 0 7px 60px;
 }
+
+  }
