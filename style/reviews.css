@@ -117,3 +117,61 @@
     line-height: 26px;
   }
 }
+
+  @media (max-width: 980px) {
+  .reviews {
+    padding: 40px 0 20px 0;
+  }
+
+  .reviews__list {
+    max-width: 688px;
+    padding-left: 62px;
+  }
+
+  .reviews__title {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 31px;
+  }
+
+  .reviews__item:not(:last-child) {
+    margin-bottom: 28px;
+  }
+
+  .reviews__img {
+    width: 153px;
+    height: 153px;
+    margin-bottom: 13px;
+    }
+
+    .reviews__img-oksana {
+      object-position: 0 -22px;
+      }
+    
+    .reviews__img-nikita {
+      object-position: 0 -44px;
+    }
+
+  .img-wrapper:after {
+    width: 153px;
+    height: 153px;
+  }
+
+  .reviews__figure {
+    max-width: 153px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 12px;
+  }
+
+  .reviews__text {
+    max-width: 393px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+
+
+
+  
+}
