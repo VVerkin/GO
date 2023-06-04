@@ -497,6 +497,7 @@
     max-width: 688px;
     min-height: 513px;
     flex-wrap: wrap;
+    margin-bottom: 50px;
   }
 
   .reserv__fieldset-check {
@@ -544,4 +545,100 @@
     padding: 8px 0 7px 60px;
   }
 
+  /* .reserv__fieldset-date {
+    max-width: 688px;
+    height: 472px;
+    flex-direction: column;
+
+  }
+
+  .reserv__setting {
+    height: 52px;
+    max-width: 688px;
+    flex-direction: row;
+    flex-basis: 0;
+    justify-content: space-between;
+    padding: 0;
+    gap: 10px;
+    margin-bottom: 24px;
+
+  }
+
+  .reserv__date-time {
+    height: 52px;
+    max-width: 280px;
+    flex-basis:0;
+    gap: 14px;
+  }
+
+  .reserv__input-small {
+    width: 134px;
+    }
+  
+  .reserv__input {
+    max-width: 300px;
+  }
+
+  .reserv__name {
+    max-width: 280px;
+    flex-basis:0;
+  }
+  .reserv__contacts {
+    max-width: 300px;
+    flex-basis: 0;
+  } */
+
+
+  .reserv__fieldset-date {
+    max-width: 688px;
+    height: 322px;
+    display: block;
+    margin-bottom: 41px;
+
+  }
+
+  .reserv__setting {
+    height: 52px;
+    max-width: 688px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    gap: 10px;
+    margin-bottom: 44px;
+  }
+
+  .reserv__date-time {
+    max-width: 280px;
+    gap: 14px;
+  }
+
+  .reserv__input-small {
+    width: 134px;
+  }
+  
+  .reserv__input {
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .reserv__name {
+    display: inline-block;
+    max-width: 280px;
+    margin-right: 103px;
+  }
+
+  .reserv__contacts {
+    display: inline-block;
+    max-width: 300px;
+  }
+
+  .reserv__btn {
+    width: 300px;
+    height: 60px;
+    padding: 16px 50px;
+
+    border-radius: 10px;
+    font-size: 22px;
+    line-height: 28px;
+  }
 }
