@@ -43,6 +43,7 @@
 
 .navigation__list {
   display: flex;
+  max-width: 587px;
   justify-content: space-between;
   gap: 40px;
 }
@@ -99,6 +100,7 @@
   }
   
   .navigation__list {
+    max-width: 430px;
     gap: 20px;
   }
   
@@ -112,6 +114,7 @@
 }
 
 @media (max-width: 980px) {
+  
   .navigation__list {
     display: none;
   }
@@ -127,6 +130,7 @@
   }
 
   .header__logo {
+    height: 100%;
     order: 2;
   }
 

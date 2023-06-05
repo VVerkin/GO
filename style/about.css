@@ -1,6 +1,5 @@
 .about {
   padding: 100px 0 50px;
-
 }
 
 .about__container {
@@ -23,10 +22,10 @@
 }
 
 .about__item {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    white-space: pre-line;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  white-space: pre-line;
 }
 
 .about__item:not(:last-child) {

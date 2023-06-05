@@ -137,10 +137,7 @@
     
   .questions__item,
   .questions__item:nth-child(2n) {
-  
     font-size: 18px;
     padding: 22px 68px 24px 54px;
   }
-
-
 }
