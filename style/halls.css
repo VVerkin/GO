@@ -86,6 +86,10 @@
   padding: 20px 0 62px;
 }
 
+.halls__list {
+  grid-template-rows: repeat(2, 200px);
+} 
+
 .halls__title {
   font-size: 24px;
   line-height: 36px;
