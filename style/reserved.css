@@ -368,7 +368,7 @@
   outline: none;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1260px) {
   .reserv {
     background: var( --deep-purple-color);
     padding: 60px 0;
