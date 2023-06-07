@@ -222,3 +222,27 @@ line-height: 36px;
   }
   
 }
+
+@media (max-width: 767px) {
+  .about__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__text {
+    order: 1;
+    max-width: 688px;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+
+  .about__collage {
+    order: 2;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .about__blockquote {
+    order: 3;
+  }
+}
