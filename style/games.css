@@ -50,7 +50,7 @@
 display: block;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1260px) {
   .games {
     padding: 30px 0 40px 0;
   }

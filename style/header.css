@@ -84,7 +84,7 @@
   border: 1px solid var(--black-color);
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1260px) {
   .header__logo {
     width: 87px;
     height: 55px;

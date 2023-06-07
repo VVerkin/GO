@@ -75,7 +75,7 @@
   background-image: url("../img/icons/open-purple_active.svg");
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1260px) {
   .questions {
     padding: 50px 0 20px 0;
   }
