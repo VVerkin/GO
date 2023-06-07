@@ -496,7 +496,7 @@
   }
 
   .reserv__hall {
-    width: 150px;
+    max-width: 150px;
     height: 38px;
     padding: 10px 20px;
 
@@ -617,6 +617,9 @@
 
 }
 
-@media (max-width: 765px) {
-
+@media (max-width: 767px) {
+  .reserv__fieldset-hall {
+    margin: 0 auto 50px;
+    max-width: 420px;
+  }
 }
