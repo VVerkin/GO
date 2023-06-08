@@ -623,3 +623,48 @@
     max-width: 420px;
   }
 }
+
+@media (max-width: 633px) {
+  .reserv {
+    padding: 30px 0;
+  }
+
+  .reserv__title {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 13px;
+  }
+
+  .reserv__fieldset-hall {
+    max-width: 280px;
+    margin-bottom: 30px;
+    gap: 14px;
+  }
+
+  .reserv__legend {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  } 
+
+  .reserv__hall { 
+    width: 130px;
+    height: 30px;
+    padding: 6px 20px;
+    border-radius: 4px;
+
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .reserv__fieldset-game {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .reserv__legend-game {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+}
