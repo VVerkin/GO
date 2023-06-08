@@ -47,7 +47,7 @@
 }
 
 .games__img {
-display: block;
+  display: block;
 }
 
 @media (max-width: 1260px) {
@@ -102,8 +102,7 @@ display: block;
   }
 
   .games__item {
-    width: 334px;
-    height: 200px;
+    flex-basis: 334px;
   }
 
   .games__item:nth-child(2) {
@@ -124,4 +123,18 @@ display: block;
     top: 132px;
   }
 
+}
+
+@media (max-width: 767px) {
+  .games__item {
+    flex-basis: 267px;
+  }
+
+  .games__figcaption {
+    width: 250px;
+    left: 30px;
+    top: 112px;
+    font-size: 16px;
+    line-height: 18px;
+  }
 }
