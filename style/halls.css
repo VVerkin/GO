@@ -86,15 +86,15 @@
   padding: 20px 0 62px;
 }
 
-.halls__list {
-  grid-template-rows: repeat(2, 200px);
-} 
-
 .halls__title {
   font-size: 24px;
   line-height: 36px;
   margin-bottom: 35px;
   }
+
+.halls__list {
+  grid-template-rows: repeat(2, 200px);
+} 
 
   .halls__link {
     font-size: 40px;
@@ -102,3 +102,30 @@
     padding: 62px 0;
   }
 }
+
+@media (max-width: 633px) {
+  .halls {
+    padding: 15px 0;
+    min-height: 280px;
+  }
+
+  .halls__title {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+    }
+
+  .halls__list {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 168px);
+    gap: 10px;
+  } 
+
+  .halls__link {
+    font-size: 26px;
+    line-height: 34px;
+    padding: 50px 0;
+  }
+}
+
+
