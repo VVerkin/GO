@@ -138,3 +138,24 @@
     order: 3;
   }
 }
+
+@media (max-width: 633px) {
+  .header {
+    padding: 20px 0 10px;
+  }
+
+  .header__button-call {
+    display: none;
+  }
+
+  .navigation__menu {
+    width: 39px;
+    height: 20px;
+    background-size: 39px 20px;
+  }
+
+  .header__logo {
+    width: 66px;
+    height: 42px;
+  }
+}
