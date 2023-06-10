@@ -583,6 +583,10 @@
     gap: 14px;
   }
 
+  .reserv__name-contacts {
+    gap:14px;
+  }
+
   .reserv__name {
     flex-basis: 280px;
     height: 148px;
@@ -642,7 +646,6 @@
     font-size: 20px;
     line-height: 24px;
   }
-
 }
 
 @media (max-width: 633px) {
