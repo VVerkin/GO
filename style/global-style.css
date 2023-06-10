@@ -41,12 +41,20 @@ body {
   }
 }
 
+@media (max-width: 748px) {
+
+  .container {
+    max-width: 548px;
+    padding: 0 20px;
+  }
+}
+
 @media (max-width: 633px) {
   .container {
       max-width: 320px;
       padding: 0 20px;
   }
-}
+} 
 
 section {
   padding: 50px 0;
