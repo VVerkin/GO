@@ -127,15 +127,15 @@
 
 @media (max-width: 748px) {
   .games__item {
-    flex-basis: 267px;
+    flex-basis: 244px;
   }
 
   .games__figcaption {
-    width: 250px;
+    max-width: 214px;
     left: 30px;
-    top: 112px;
-    font-size: 16px;
-    line-height: 18px;
+    top: 102px;
+    font-size: 14px;
+    line-height: 16px;
   }
 }
 
