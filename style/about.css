@@ -223,7 +223,7 @@ line-height: 36px;
   
 }
 
-@media (max-width: 767px) {
+@media (max-width: 748px) {
   .about__container {
     display: flex;
     flex-direction: column;
