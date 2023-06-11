@@ -153,7 +153,7 @@
 
 @media (max-width: 548px) {
   .questions {
-    padding: 51px 0 15px;
+    padding: 53px 0 15px;
   }
 
   .questions__title {
@@ -186,6 +186,7 @@
 
   .questions__item:nth-child(4n) {
     padding: 15px 59px 6px 14px;
+    margin-bottom: 0;
   }
 
   .questions__item:after {
