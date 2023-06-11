@@ -170,3 +170,27 @@
     line-height: 22px;
   } 
 }
+
+@media (max-width: 748px) {
+  .reviews__list {
+    padding: 0;
+  }
+
+  .reviews__img {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 10px;
+    } 
+
+    .img-wrapper:after {
+      width: 140px;
+      height: 140px;
+    }
+
+  .reviews__text {
+    max-width: 350px;
+    font-size: 15px;
+    line-height: 18px;
+  } 
+
+}

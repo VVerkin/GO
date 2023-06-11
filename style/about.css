@@ -245,4 +245,9 @@ line-height: 36px;
   .about__blockquote {
     order: 3;
   }
+
+  .about__cite:after {
+    top: 70px;
+    left: 270px;
+  }
 }
