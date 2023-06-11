@@ -181,7 +181,7 @@ line-height: 36px;
 
   .about__collage {
     max-width: 382px;
-    margin-right: 28px;
+    margin-right: 26px;
   }
 
   .about__text {
@@ -189,11 +189,15 @@ line-height: 36px;
     padding-top: 68px;
     margin-bottom: 109px;
   }
-  
+
   .about__item {
     font-size: 16px;
     line-height: 22px;
     white-space: normal;
+  }
+
+  .about__item:not(:last-child) {
+    margin-bottom: 22px;
   }
 
   .about__blockquote {
@@ -204,6 +208,8 @@ line-height: 36px;
     max-width: 688px;
     font-size: 32px;
     line-height: 36px;
+    padding-top: 3px;
+    padding-left: 19px;
   } 
 
   .about__cite:before {
@@ -212,15 +218,17 @@ line-height: 36px;
 
   .about__cite:after {
     top: 35px;
-    left: 550px;
+    left: 548px;
     font-size: 32px;
   }
 
   .about__img {
-    margin: 8px 25px 0 10px;
-    /* margin-right: 25px; */
+    margin: 8px 24px 0 10px;
   }
-  
+
+  .about__text-block {
+    padding-top: 2px;
+  }
 }
 
 @media (max-width: 748px) {

@@ -195,16 +195,12 @@
   }
 
   .footer__list-item:not(:last-child) {
-    margin-bottom: 29px;
+    margin-bottom: 30px;
   }
 
   .footer__link:before {
-    left: -28px;
-    top:-1px;
-  }
-
-  .footer__link {
-    padding-left: 10px;
+    left: -41px;
+    top: 1px;
   }
 
   .footer__wrapper {
