@@ -103,6 +103,17 @@
   }
 }
 
+@media (max-width: 748px) {
+  .halls__list {
+    grid-template-rows: repeat(2, 180px);
+  } 
+  .halls__link {
+    font-size: 30px;
+    line-height: 40px;
+    padding: 50px 0;
+  }
+} 
+
 @media (max-width: 633px) {
   .halls {
     padding: 15px 0 30px;
