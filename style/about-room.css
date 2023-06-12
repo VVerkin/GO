@@ -1,0 +1,36 @@
+.about-room__container {
+  display: flow-root;
+}
+
+.about-room__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.about-room__img {
+  max-width: 600px;
+  height: 424px;
+  margin-right: 76px;
+}
+
+.about-room__text {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 135px;
+  max-width: 450px;
+  height: 155px;
+}
+
+.about-room__item {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.about__item:not(:last-child) {
+  margin-bottom: 14px;
+}
