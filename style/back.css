@@ -1,0 +1,73 @@
+.back {
+  padding: 60px 0 10px;
+}
+
+.back__link {
+  position: relative;
+  padding-left: 40px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.back__link:before {
+  content: '';
+  background-image: url('../img/80s-vibes_page/vibes_arrow.svg');
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 30px 28px;
+  height: 28px;
+  width: 30px;
+  left: 0px;
+}
+
+.back__link:hover {
+  color: var(--light-purple-color);
+}
+
+.back__link:focus {
+  outline-offset: 5px;
+  outline: 1px solid var(--light-purple-color);
+}
+
+.back__link:active {
+  color: var(--dark-purple-color);
+}
+
+@media (max-width: 1260px) {
+  .back {
+    padding: 50px 0 10px;
+  }
+}
+
+@media (max-width: 980px) {
+  .back {
+    padding: 40px 0 10px;
+  }
+
+  .back__link {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 548px) {
+  .back {
+    padding: 3px 0 5px;
+  }
+
+  .back__link {
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .back__link:before {
+    background-size: 16px 16px;
+    height: 16px;
+    width: 16px;
+    left: -1px;
+    top: -1px;
+  }
+}
+

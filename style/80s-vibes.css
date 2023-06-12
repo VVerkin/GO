@@ -1,5 +1,5 @@
 .vibes {
-  padding: 108px 0 50px;
+  padding: 10px 0 50px;
   margin: 0 auto;
 }
 
@@ -25,40 +25,6 @@
   z-index: 0;
 }
 
-.vibes__link-back {
-  position: absolute;
-  top: -48px;
-  left: 170px;
-  font-size: 22px;
-  line-height: 28px;
-  font-weight: 700;
-}
-
-.vibes__link-back:before {
-  content: '';
-  background-image: url('../img/80s-vibes_page/vibes_arrow.svg');
-  background-repeat: no-repeat;
-  position: absolute;
-  background-size: 30px 28px;
-  height: 28px;
-  width: 30px;
-  right: 196px;
-  bottom: 0px;
-}
-
-.vibes__link-back:hover {
-  color: var(--light-purple-color);
-}
-
-.vibes__link-back:focus {
-  outline-offset: 5px;
-  outline: 1px solid var(--light-purple-color);
-}
-
-.vibes__link-back:active {
-  color: var(--dark-purple-color);
-}
-
 .vibes__title {
   position: absolute;
   font-weight: 700;
@@ -69,5 +35,41 @@
   text-transform: uppercase;
   color: var(--white-color);
   z-index: 3;
+}
+
+@media (max-width: 1260px) {
+  .vibes__wrapper {
+    min-height: 534px;
+  }
+
+  .vibes__title {
+    top: 227px;
+  }
+}
+
+@media (max-width: 980px) {
+  .vibes__wrapper {
+    min-height: 402px;
+  }
+
+  .vibes__title {
+    font-size: 60px;
+    line-height: 72px;
+    top: 166px;
+    left: calc(50% - 161px);
+  }
+}
+
+@media (max-width: 548px) {
+  .vibes__wrapper {
+    min-height: 168px;
+  }
+
+  .vibes__title {
+    font-size: 30px;
+    line-height: 36px;
+    top: 67px;
+    left: calc(50% - 81px);
+  }
 }
 
