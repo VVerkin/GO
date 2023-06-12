@@ -1,0 +1,73 @@
+.vibes {
+  padding: 108px 0 50px;
+  margin: 0 auto;
+}
+
+.vibes__wrapper {
+  position: relative;
+  max-width: 1440px;
+  min-height: 750px;
+  margin: 0 auto;
+  background: url('../img/80s-vibes_page/vibes_bg.jpg') center center/cover no-repeat;
+}
+
+.vibes__wrapper:before {
+  content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, 0.25);
+  z-index: 0;
+}
+
+.vibes__link-back {
+  position: absolute;
+  top: -48px;
+  left: 170px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.vibes__link-back:before {
+  content: '';
+  background-image: url('../img/80s-vibes_page/vibes_arrow.svg');
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 30px 28px;
+  height: 28px;
+  width: 30px;
+  right: 196px;
+  bottom: 0px;
+}
+
+.vibes__link-back:hover {
+  color: var(--light-purple-color);
+}
+
+.vibes__link-back:focus {
+  outline-offset: 5px;
+  outline: 1px solid var(--light-purple-color);
+}
+
+.vibes__link-back:active {
+  color: var(--dark-purple-color);
+}
+
+.vibes__title {
+  position: absolute;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 80px;
+  top: 335px;
+  left: calc(50% - 240px);
+  text-transform: uppercase;
+  color: var(--white-color);
+  z-index: 3;
+}
+
