@@ -125,7 +125,25 @@
     height: 29px;
     background-image: url('../img/icons/header/menu.svg');   
     background-color: var(--background-color);
+    background-position: center;
+    background-repeat: no-repeat;
     border: none;
+    cursor: pointer;
+  }
+
+  .navigation__menu:hover {
+    background-image: url('../img/icons/header/menu_hover.svg');
+  }
+  
+  .navigation__menu:focus {
+    background-image: url('../img/icons/header/menu_focus.svg');
+    outline-offset: 3px;
+    outline: 1px solid var(--light-purple-color);
+  }
+  
+  .navigation__menu:active {
+    background-image: url('../img/icons/header/menu_active.svg');
+    outline: none;
   }
 
   .header__logo {
@@ -149,7 +167,7 @@
 
   .navigation__menu {
     width: 39px;
-    height: 20px;
+    height: 25px;
     background-size: 39px 20px;
   }
 

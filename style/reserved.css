@@ -37,19 +37,17 @@
   display: inline-block;
   width: 250px;
   height: 55px;
-  padding: 7px 15px 8px;
+  padding: 7px 15px;
   cursor: pointer;
   background: var(--white-color);
   border-radius: 8px;
   user-select: none;
-
   font-weight: 700;
   font-size: 30px;
   line-height: 40px;
   text-align: center;
   text-transform: uppercase;
   color: var(--black-color);
-  outline: none;
 
   transition-property: background, border;
   transition-duration: 0.3s, 0.1s;
@@ -59,18 +57,19 @@
   .reserv__hall:hover {
   background: var(--white-purple-color);
   outline: 3px solid var(--violet-color);
+  outline-offset: -2px;
   }
 
 .reserv__hall:focus {
   background: var(--white-color);
   outline: 3px solid var(--violet-color);
+  outline-offset: -2px;
   }
 
 .reserv__hall:active {
   background: var(--dark-purple-color);
-  border: 3px solid var(--white-color);
-  outline: none;
-
+  outline: 3px solid var(--white-color);
+  outline-offset: -2px;
   color: var(--white-color);
   }
 
