@@ -196,13 +196,13 @@
     left: 31px;
 }
 
-.questions__item:nth-child(3n):after {
-  top: -23px;
-  left: 46px;
-}
+  .questions__item:nth-child(3n):after {
+    top: -23px;
+    left: 46px;
+  }
 
-.questions__item:nth-child(4n):after {
-  top: -8px;
-  left: 47px;
-}
+  .questions__item:nth-child(4n):after {
+    top: -8px;
+    left: 47px;
+  }
 }

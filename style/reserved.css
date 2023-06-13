@@ -1,5 +1,5 @@
 .reserv {
-  background: var( --deep-purple-color);
+  background: var(--deep-purple-color);
   padding: 80px 0;
 }
 
@@ -27,11 +27,11 @@
   line-height: 28px;
   text-align: center;
   margin-bottom: 41px;
-  }
+}
 
 .reserv__hall-input {
   display: none;
-  }
+}
 
 .reserv__hall {
   display: inline-block;
@@ -52,26 +52,26 @@
   transition-property: background, border;
   transition-duration: 0.3s, 0.1s;
   transition-timing-function: ease-in-out;
-  }
+}
 
-  .reserv__hall:hover {
+.reserv__hall:hover {
   background: var(--white-purple-color);
   outline: 3px solid var(--violet-color);
   outline-offset: -2px;
-  }
+}
 
 .reserv__hall:focus {
   background: var(--white-color);
   outline: 3px solid var(--violet-color);
   outline-offset: -2px;
-  }
+}
 
 .reserv__hall:active {
   background: var(--dark-purple-color);
   outline: 3px solid var(--white-color);
   outline-offset: -2px;
   color: var(--white-color);
-  }
+}
 
 .reserv__fieldset-game {
   max-width: 980px;
@@ -87,13 +87,13 @@
   font-size: 24px;
   line-height: 28px;
   margin-bottom: 24px;
-  }
+}
 
 .reserv__fieldset-check {
   display: flex;
   flex-direction: column;
   gap: 21px;
-  }
+}
 
 .fieldset-middle {
   padding-left: 10px;
@@ -116,7 +116,7 @@
 
 /* Создаем кастомный radio */
 
-.radio__input {
+.reserv__radio-input {
   position: absolute;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -124,8 +124,8 @@
   margin-left: -42px;
 }
 
-.radio__input:before {
-  content: '';
+.reserv__radio-input:before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -141,8 +141,8 @@
   transition-timing-function: ease-in-out;
 }
 
-.radio__input:after {
-  content: '';
+.reserv__radio-input:after {
+  content: "";
   position: absolute;
   top: 5px;
   left: 5px;
@@ -150,7 +150,7 @@
   width: 17px;
   height: 17px;
   background-color: var(--deep-purple-color);
-  border-radius:50%;
+  border-radius: 50%;
   opacity: 0;
   background-position: center;
   transition-property: opacity;
@@ -158,90 +158,91 @@
   transition-timing-function: ease-in-out;
 }
 
-.radio__input:focus-visible {
+.reserv__radio-input:focus-visible {
   outline: none;
 }
 
-.radio__input:checked:after {
+.reserv__radio-input:checked:after {
   opacity: 1;
 }
 
-.radio__input:focus:before {
+.reserv__radio-input:focus:before {
   outline: 1px solid var(--light-purple-color);
   outline-offset: 3px;
 }
 
-.radio__input:hover:not(:disabled):before {
+.reserv__radio-input:hover:not(:disabled):before {
   box-shadow: 0px 0px 10px rgba(227, 0, 219, 0.792);
 }
 
-.radio__input:disabled:before {
+.reserv__radio-input:disabled:before {
   background-color: var(--gray-color);
 }
 
-  /* Создаем кастомный чекбокс */
+/* Создаем кастомный чекбокс */
 
-  .checkbox__input {
-    position: absolute;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    margin-left: -38px;
-  }
-  .checkbox__input:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 25px;
-    height: 25px;
-    background-color: var(--white-color);
-    outline-color: var(--deep-purple-color);
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
-    transition-property: outline, box-shadow;
-    transition-duration: 0.3s, 0.3s;
-    transition-timing-function: ease-in-out;
-  }
-  
-  .checkbox__input:after {
-    content: '';
-    position: absolute;
-    top: 6px;
-    left: 4px;
-    width: 20px;
-    height: 10px;
-    border: 3px solid var(--black-color);
-    border-top: none;
-    border-right: none;
-    opacity: 0;
-    transform: rotate(-45deg); 
-    transition-property: opacity;
-    transition-duration: 0.2s;
-    transition-timing-function: ease-in-out;
-  }
-  
-  .checkbox__input:focus-visible {
-    outline: none;
-  }
-  
-  .checkbox__input:checked:after {
-    opacity: 1;
-  }
-  
-  .checkbox__input:focus:before {
-    outline: 1px solid var(--light-purple-color);
-    outline-offset: 3px;
-  }
-  
-  .checkbox__input:hover:not(:disabled):before {
-    box-shadow: 0px 0px 10px rgba(227, 0, 219, 0.792);
-  }
-  
-  .checkbox__input:disabled:before {
-    background-color: var(--gray-color);
-  }
-  /* Делаем кастомный чекбокс */
+.reserv__checkbox-input {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-left: -38px;
+}
+
+.reserv__checkbox-input:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: var(--white-color);
+  outline-color: var(--deep-purple-color);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  transition-property: outline, box-shadow;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.reserv__checkbox-input:after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 4px;
+  width: 20px;
+  height: 10px;
+  border: 3px solid var(--black-color);
+  border-top: none;
+  border-right: none;
+  opacity: 0;
+  transform: rotate(-45deg);
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.reserv__checkbox-input:focus-visible {
+  outline: none;
+}
+
+.reserv__checkbox-input:checked:after {
+  opacity: 1;
+}
+
+.reserv__checkbox-input:focus:before {
+  outline: 1px solid var(--light-purple-color);
+  outline-offset: 3px;
+}
+
+.reserv__checkbox-input:hover:not(:disabled):before {
+  box-shadow: 0px 0px 10px rgba(227, 0, 219, 0.792);
+}
+
+.reserv__checkbox-input:disabled:before {
+  background-color: var(--gray-color);
+}
+/* Делаем кастомный чекбокс */
 
 .reserv__fieldset-date {
   max-width: 980px;
@@ -251,7 +252,7 @@
   justify-content: space-between;
   gap: 15px;
   margin-bottom: 40px;
-  }
+}
 
 .reserv__setting {
   display: flex;
@@ -261,7 +262,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  }
+}
 
 .reserv__date-time {
   display: flex;
@@ -269,7 +270,7 @@
   margin-bottom: 36px;
   gap: 10px;
   font-weight: 400;
-  }
+}
 
 .reserv__name-contacts {
   display: flex;
@@ -281,14 +282,14 @@
 .reserv__input-small {
   width: 45%;
   height: 52px;
-  }
+}
 
 .reserv__input {
   width: 100%;
-  height: 52px; 
+  height: 52px;
 }
 
-.reserv__input-small, 
+.reserv__input-small,
 .reserv__input {
   outline: 2px solid transparent;
   transition-property: background, outline-color;
@@ -296,7 +297,7 @@
   transition-timing-function: ease-in-out;
 }
 
-.reserv__input-small:focus, 
+.reserv__input-small:focus,
 .reserv__input:focus {
   background: var(--white-color);
   outline-color: var(--light-purple-color);
@@ -306,13 +307,13 @@
   display: flex;
   flex-direction: column;
   flex-basis: 280px;
-  }
+}
 
 .reserv__contacts {
   display: flex;
   flex-direction: column;
   flex-basis: 300px;
-  }
+}
 
 .reserv__label {
   font-weight: 700;
@@ -369,7 +370,7 @@
 
 @media (max-width: 1260px) {
   .reserv {
-    padding: 62px 0 ;
+    padding: 62px 0;
   }
 
   .reserv__title {
@@ -403,12 +404,12 @@
     padding-left: 10px;
     margin-right: 11px;
   }
-  
+
   .fieldset-right {
     padding-left: 10px;
     margin: 0 13px 0 8px;
   }
-  
+
   .reserv__check {
     position: relative;
     display: block;
@@ -445,7 +446,7 @@
   .reserv__name-contacts {
     flex-basis: 554px;
   }
-  
+
   .reserv__name {
     flex-basis: 251px;
   }
@@ -521,28 +522,28 @@
   .fieldset-right {
     margin: 0;
   }
-  .radio__input:before {
+  .reserv__radio-input:before {
     width: 40px;
     height: 40px;
     top: -9px;
     left: -18px;
   }
 
-  .checkbox__input:before {
+  .reserv__checkbox-input:before {
     width: 40px;
     height: 40px;
     top: -9px;
     left: -21px;
   }
 
-  .radio__input:after {
+  .reserv__radio-input:after {
     top: 1px;
     left: -8px;
     width: 20px;
     height: 20px;
   }
 
-  .checkbox__input:after {
+  .reserv__checkbox-input:after {
     top: -2px;
     left: -12px;
     width: 25px;
@@ -573,7 +574,7 @@
     width: 100%;
     flex-basis: 0;
     padding-top: 6px;
-    gap:14px;
+    gap: 14px;
   }
 
   .reserv__date-time {
@@ -662,9 +663,9 @@
     font-size: 14px;
     line-height: 18px;
     margin-bottom: 15px;
-  } 
+  }
 
-  .reserv__hall { 
+  .reserv__hall {
     width: 130px;
     height: 30px;
     padding: 6px 20px;
@@ -688,7 +689,7 @@
 
   .reserv__fieldset-check {
     gap: 15px;
-    }
+  }
 
   .reserv__check {
     padding: 9px 0 7px 50px;
@@ -701,7 +702,7 @@
     margin-bottom: 2px;
     gap: 20px;
   }
-  
+
   .fieldset-right {
     gap: 22px;
   }
@@ -710,28 +711,28 @@
     margin: 0;
   }
 
-  .radio__input:before {
+  .reserv__radio-input:before {
     width: 30px;
     height: 30px;
     top: -9px;
     left: -6px;
   }
 
-  .checkbox__input:before {
+  .reserv__checkbox-input:before {
     width: 30px;
     height: 30px;
     top: -9px;
     left: -11px;
   }
 
-  .radio__input:after {
+  .reserv__radio-input:after {
     top: -1px;
     left: 2px;
     width: 15px;
     height: 15px;
   }
 
-  .checkbox__input:after {
+  .reserv__checkbox-input:after {
     top: -2px;
     left: -3px;
     width: 15px;
@@ -757,8 +758,8 @@
   }
 
   .reserv__name-contacts {
-  flex-direction: column;
-  gap: 50px;
+    flex-direction: column;
+    gap: 50px;
   }
 
   .reserv__name {

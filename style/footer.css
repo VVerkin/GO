@@ -27,6 +27,7 @@
 .footer__list-item:first-child {
   margin-bottom: 44px;
 }
+
 .footer__list-item:nth-child(2) {
   margin-bottom: 13px;
 }
@@ -291,8 +292,6 @@
     font-size: 12px;
     line-height: 16px;
   }
-
-  .footer__info-copyright
   
   .footer__info-autor {
     text-align: center;

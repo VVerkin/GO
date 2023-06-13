@@ -1,0 +1,98 @@
+.banner {
+  padding: 10px 0 50px;
+  margin: 0 auto;
+}
+
+.banner__wrapper {
+  position: relative;
+  max-width: 1440px;
+  min-height: 750px;
+  margin: 0 auto;
+}
+
+.banner__wrapper:before {
+  content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, 0.25);
+  z-index: 0;
+}
+
+.banner__wrapper-vibes {
+  background: url('../img/80s-vibes_page/vibes_bg.jpg') center center/cover no-repeat;
+}
+
+.banner__wrapper-star-wars {
+  background: url('../img/star-wars_page/star-wars_bg.jpg') center center/cover no-repeat;
+}
+
+.banner__wrapper-wild-west {
+  background: url('../img/wild-west_page/wild-west_bg.jpg') center center/cover no-repeat;
+}
+
+.banner__wrapper-neon {
+  background: url('../img/neon_page/neon_bg.jpg') center center/cover no-repeat;
+}
+
+.banner__title {
+  padding-top: 335px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 80px;
+  text-transform: uppercase;
+  color: var(--white-color);
+  z-index: 3;
+}
+
+@media (max-width: 1260px) {
+  .banner {
+    padding: 10px 0 35px;
+  }
+
+  .banner__wrapper {
+    min-height: 534px;
+  }
+
+  .banner__title {
+    top: 227px;
+  }
+}
+
+@media (max-width: 980px) {
+  .banner {
+    padding: 10px 0 30px;
+  }
+
+  .banner__wrapper {
+    min-height: 402px;
+  }
+
+  .banner__title {
+    font-size: 60px;
+    line-height: 72px;
+    padding-top: 166px;
+  }
+}
+
+@media (max-width: 548px) {
+  .banner {
+    padding: 10px 0 15px;
+  }
+  .banner__wrapper {
+    min-height: 168px;
+  }
+
+  .banner__title {
+    font-size: 30px;
+    line-height: 36px;
+    padding-top: 67px;
+  }
+}
+
