@@ -1,6 +1,5 @@
 .preview__text {
   max-width: 1000px;
-  min-height: 108px;
   margin: 0 auto;
   text-align: center;
   font-weight: 700;
@@ -15,8 +14,6 @@
 
   .preview__text {
     max-width: 800px;
-    min-height: 90px;
-    min-height: 108px;
     font-size: 20px;
     line-height: 30px;
   }
