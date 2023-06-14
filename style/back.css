@@ -21,6 +21,10 @@
   left: 0px;
 }
 
+.back__link:hover:before {
+  background-image: url('../img/80s-vibes_page/vibes_arrow_hover.svg');
+}
+
 .back__link:hover {
   color: var(--light-purple-color);
 }

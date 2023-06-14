@@ -68,7 +68,7 @@
 
 .social {
   display: flex;
-  list-style-type: none;
+  gap: 26px;
 }
 
 .social__link {
@@ -76,10 +76,6 @@
   transition-property: color, outline-color;
   transition-duration: 0.3s, 0.2s;
   transition-timing-function: ease-in-out;
-}
-
-.social__item:not(:last-child) {
-  margin-right: 26px;
 }
 
 .social__link:hover {
