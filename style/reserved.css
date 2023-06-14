@@ -115,6 +115,7 @@
   cursor: pointer;
 }
 
+
 /* Создаем кастомный radio */
 
 .reserv__radio-input {
@@ -777,7 +778,6 @@
     width: 100%;
     height: 60px;
     padding: 17px 58px;
-
     border-radius: 4px;
     font-size: 18px;
     line-height: 26px;
