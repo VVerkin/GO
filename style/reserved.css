@@ -112,6 +112,7 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 25px;
+  cursor: pointer;
 }
 
 /* Создаем кастомный radio */
@@ -122,6 +123,7 @@
   -moz-appearance: none;
   appearance: none;
   margin-left: -42px;
+  cursor: pointer;
 }
 
 .reserv__radio-input:before {
@@ -187,6 +189,7 @@
   -moz-appearance: none;
   appearance: none;
   margin-left: -38px;
+  cursor: pointer;
 }
 
 .reserv__checkbox-input:before {
